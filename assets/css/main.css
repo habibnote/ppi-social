@@ -204,6 +204,119 @@ p{
 
 /*end Login and register*/
 
+/* start Profile page wrapper */
+.habib-profile-wrapper{
+    background: linear-gradient(90deg, rgba(0, 131, 176, 0.37) 0%, rgba(219, 0, 158, 0.32) 100%);
+}
+.habib-profile-cover{
+    width: 100%;
+    height: 200px;
+}
+.habib-profile-cover img{
+    width: 100%;
+    height: 200px;
+}
+.habib-profile-content-area{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.habib-profile-left{
+    width: 30%;
+    padding-right: 20px;
+}
+.habib-profile-left .profile-pic img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ddd;
+}
+.all-user-meta span{
+    display: block;
+    margin-bottom: 30px;
+}
+.all-user-meta p{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.all-user-meta p a{
+    display: block;
+    color: #ff1e71;;
+    font-size: 20px;
+}
+.all-user-meta button{
+    padding: 10px 20px;
+    background: #D885A3;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.habib-profile-right{
+    padding: 20px;
+    width: 70%;
+    border-left: 1px solid #ddd;
+}
+.title-area{
+    border-bottom: 2px solid #ddd;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.title-area button{
+    padding: 10px 20px;
+    border:none;
+    font-weight: bold;
+    outline: 0;
+    color: #000;
+    border-radius: 5px;
+    background: #C0DBEA;
+    cursor: pointer;
+}
+.single-content-wrap{
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 2px solid #ddd;
+}
+.single-content-wrap:last-child{
+    border-bottom: none;
+}
+.single-content-wrap .author-info{
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    padding: 10px 0;
+}
+.single-content-wrap .author-info img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    margin-right: 20px;
+}
+.habib-user-content{
+    width: 100%;
+    padding: 20px 0;
+}
+.habib-user-content img{
+    width: 100%;
+    height: auto;
+}
+/* end profile page wrapper */
+
+footer{
+    background: #C0DBEA;
+    padding: 20px;
+    text-align: center;
+}
+footer ul{
+    margin-bottom: 20px;
+}
+footer ul li{
+    display: inline-block;
+}
+footer ul li a{
+    padding: 10px;
+}
+
 @media screen and (max-width: 800px) {
     .habib-login-register{
         flex-direction: column-reverse;
