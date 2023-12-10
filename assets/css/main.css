@@ -202,3 +202,20 @@ p{
 }
 
 /*end Login and register*/
+
+@media screen and (max-width: 800px) {
+    .habib-login-register{
+        flex-direction: column-reverse;
+    }
+    .habib-login-left, .habib-login-right{
+        width: 100%;
+        border-radius: 0;
+        background-color: #fff;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 500px) {
+    .habib-login-right{
+        min-height: 400px;
+    }
+}
