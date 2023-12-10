@@ -9,7 +9,10 @@
 <head>
     <meta charset="<?php bloginfo('charset')?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php wp_head(); ?>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <?php wp_head();?>
 </head>
 <body <?php body_class(); ?>>
 
@@ -45,13 +48,15 @@
                         <label for="habib-password">Password</label>
                         <input type="Email" placeholder="Password" id="habib-password">
                     </div>
-                    <p>
-                        <button type="button">Login <span class="dashicons dashicons-arrow-right-alt"></span></button>
-                    </p>
-                    <p>Don't have an account yet? <a href="#">Sign up for free</a></p>
+                    <div class="habib-row">
+                        <p>
+                            <button type="button">Login <span class="dashicons dashicons-arrow-right-alt"></span></button>
+                        </p>
+                    </div>
+                    <label>Don't have an account yet? <a href="#">Sign up for free</a></label>
                 </div>
                 <div class="habib-login-right">
-                    <img src="<?php echo get_template_directory_uri() . "/assets/img/login.png" ?>" alt="">
+                    <img class="habib-login-main-image" src="<?php echo get_template_directory_uri() . "/assets/img/login.png" ?>" alt="">
                 </div>
             </div>
         </div>
